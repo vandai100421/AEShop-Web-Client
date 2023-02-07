@@ -1,0 +1,21 @@
+.wrapper {
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 30px 0px;
+}
+
+.linkText {
+  color: var(--nc-text-tertiary);
+}
+
+.verifiedWrapper {
+  margin: 32px 0px;
+}
+
+.verifiedImg {
+  width: 120px;
+}
+
+.companyName {
+  margin-bottom: 32px;
+}

@@ -1,0 +1,91 @@
+.wrapper {
+  flex-basis: 20%;
+  max-width: 20%;
+}
+
+.wrapper > div {
+  background-color: #fff;
+  cursor: pointer;
+  position: relative;
+  top: 0;
+  transition: top 0.15s ease 0s;
+}
+
+.wrapper > div:hover {
+  top: -8px;
+  outline: 1px solid var(--nc-primary);
+}
+
+/* start img product */
+.imgWrapper {
+  position: relative;
+  width: 100%;
+  height: 0px;
+  padding-bottom: 100%;
+}
+
+.imgWrapper img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* end img product */
+
+.contentWrapper {
+  padding: 8px;
+}
+
+/* start price */
+.priceWrapper {
+  margin: 6px 0px;
+}
+
+.price {
+  color: var(--nc-primary);
+  font-size: 16px;
+}
+
+.price span {
+  font-size: 12px;
+}
+
+.oldPrice {
+  color: var(--nc-text-tertiary);
+  text-decoration: line-through;
+  font-size: 16px;
+}
+
+.oldPrice span {
+  font-size: 12px;
+}
+/* end price */
+
+.name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+/* start rate */
+.sold {
+  font-size: 12px;
+}
+
+.rate {
+  font-size: 12px;
+}
+
+.rate li:not(:last-child) {
+  margin-right: 4px;
+}
+/* end rate */
+
+.location {
+  font-size: 12px;
+  margin-top: 8px;
+  color: var(--nc-text-tertiary);
+}

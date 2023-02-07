@@ -1,0 +1,13 @@
+/* start top header */
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 0px;
+  color: #fff;
+}
+
+.wrapper a {
+  color: #fff;
+}
+/* end top header */

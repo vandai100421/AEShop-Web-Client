@@ -1,0 +1,4 @@
+.wrapper {
+  padding-top: 32px;
+  border-top: 2px solid var(--nc-primary);
+}

@@ -1,0 +1,33 @@
+.wrapper {
+  background-color: #fbfbfb;
+  padding: 30px 0px;
+}
+
+.heading {
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.linkText {
+  color: var(--nc-text-tertiary);
+  font-size: 14px;
+}
+
+.linkText:hover {
+  color: var(--nc-primary);
+}
+
+/* start shipping */
+.shippingItem {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  padding: 8px;
+  border-radius: 4px;
+}
+/* end shipping */
+
+.paymentItem {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  padding: 8px;
+  border-radius: 4px;
+}
