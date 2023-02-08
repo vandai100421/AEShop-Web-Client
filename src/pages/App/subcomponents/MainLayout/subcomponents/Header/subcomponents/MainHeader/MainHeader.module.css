@@ -12,6 +12,11 @@
   padding-right: 40px;
 }
 
+.logo {
+  font-size: 30px;
+  color: #fff;
+}
+
 .wrapper {
   display: flex;
   align-items: flex-start;

@@ -26,7 +26,7 @@ const AccountMenu = () => {
             src="https://cf.shopee.vn/file/9b328707c6e4774c0f4464ad8449d1ee_tn"
             alt=""
           />
-          Dương Trọng Nghĩa
+          Nguyễn Văn Đại
         </Space>
       </Dropdown>
     </div>
