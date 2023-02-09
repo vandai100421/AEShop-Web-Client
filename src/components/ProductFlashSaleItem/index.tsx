@@ -18,10 +18,12 @@ const ProductFlashSaleItem = () => {
           </Badge.Ribbon>
         </div>
         <div className={styles.contentWrapper}>
-          {/* <div className={styles.name}>
-            Quần tây nam ống rộng vải Trượt tuyết mềm co giãn độ dày vừa phải
-            kiểu dáng thoải mái phong cách Hàn Quốc
-          </div> */}
+          {
+            <div className={styles.name}>
+              Quần tây nam ống rộng vải Trượt tuyết mềm co giãn độ dày vừa phải
+              kiểu dáng thoải mái phong cách Hàn Quốc
+            </div>
+          }
           <Space className={styles.priceWrapper}>
             <div className={styles.price}>
               <span>₫</span>

@@ -32,25 +32,25 @@ const initProductCategoryValue: Array<ProductCategory> = [
   {
     _id: "3",
     image: "https://cf.shopee.vn/file/978b9e4cb61c611aaaf58664fae133c5_tn",
-    name: "Đồ gia dụng",
+    name: "Điện tử",
     subcategories: [],
   },
   {
     _id: "4",
     image: "https://cf.shopee.vn/file/687f3967b7c2fe6a134a2c11894eea4b_tn",
-    name: "Linh kiện điện thoại",
+    name: "Quần áo",
     subcategories: [],
   },
   {
     _id: "5",
     image: "https://cf.shopee.vn/file/c3f3edfaa9f6dafc4825b77d8449999d_tn",
-    name: "Nhạc cụ",
+    name: "Laptop",
     subcategories: [],
   },
   {
     _id: "6",
     image: "https://cf.shopee.vn/file/ec14dd4fc238e676e43be2a911414d4d_tn",
-    name: "Điện thoại",
+    name: "Máy ảnh",
     subcategories: [],
   },
   {
