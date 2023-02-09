@@ -31,6 +31,7 @@
   max-width: 100%;
   align-items: center;
   color: var(--nc-primary);
+  font-weight: 600;
 }
 
 .productWrapper {
@@ -41,5 +42,11 @@
   display: flex;
   position: relative;
   align-items: center;
-  color: var(--nc-primary);
+}
+
+.flashSaleImage {
+  background: url("/src/assets/images/flashSale.png") 50% no-repeat;
+  width: 114px;
+  height: 30px;
+  background-size: contain;
 }
