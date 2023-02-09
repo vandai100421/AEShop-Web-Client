@@ -10,17 +10,17 @@ const FlashSale = () => {
 
   return (
     <div className={styles.container}>
-      {/* <Space>
-        <div>FlashSale sẽ diễn ra trong: </div>
-        <Countdown value={deadline} />
-      </Space> */}
       <div style={{ marginTop: "10px" }}>
         <Row className={styles.headerWrapper}>
           <Col>
             <div className={styles.contentWrapper}>
+              <div className={styles.flashSaleImage}></div>
               <div className={styles.highlight}></div>
-              <div className={styles.titleWrapper}>FLASH SALE: </div>
-              <Countdown value={deadline} className={styles.countdown} />
+              <Countdown
+                value={deadline}
+                className={styles.countdown}
+                style={{ color: "var(--nc-primary);" }}
+              />
             </div>
           </Col>
         </Row>
