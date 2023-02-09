@@ -8,7 +8,6 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 import { ConfigProvider } from "antd";
 import viVN from "antd/lib/locale/vi_VN";
-import moment from "moment";
 import "moment/locale/vi";
 
 const root = ReactDOM.createRoot(
